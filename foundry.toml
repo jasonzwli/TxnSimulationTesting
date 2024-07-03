@@ -3,4 +3,6 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
-# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+rpc_url = "https://sepolia.infura.io/v3/552e2d4c49604e32aad515ab6a252ce2"
+eth_rpc_url = "https://sepolia.infura.io/v3/552e2d4c49604e32aad515ab6a252ce2"
+mnemonic = "YOUR_METAMASK_SEED_PHRASE"
