@@ -1,0 +1,72 @@
+{
+  "simulation": {
+    "account_summary": {
+      "assets_diffs": [],
+      "exposures": [
+        {
+          "asset": {
+            "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xae78736Cd615f374D3085123A210448E74Fc6393/ethereum",
+            "name": "Rocket Pool ETH",
+            "symbol": "rETH",
+            "type": "ERC20"
+          },
+          "spenders": {
+            "0x858646372CC42E1A627fcE94aa7A7033e7CF075A": {
+              "approval": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+              "exposure": [
+                {
+                  "raw_value": "0x0",
+                  "value": "0.0"
+                }
+              ],
+              "summary": "Approved infinite rETH to 0x858646372cc42e1a627fce94aa7a7033e7cf075a"
+            }
+          }
+        }
+      ],
+      "total_usd_exposure": {}
+    },
+    "address_details": {
+      "0x858646372CC42E1A627fcE94aa7A7033e7CF075A": {
+        "contract_name": "TransparentUpgradeableProxy",
+        "name_tag": "EigenLayer: Strategy Manager"
+      },
+      "0xae78736Cd615f374D3085123A210448E74Fc6393": {
+        "contract_name": "RocketTokenRETH",
+        "name_tag": "Rocket Pool: rETH Token"
+      }
+    },
+    "assets_diffs": {},
+    "exposures": {
+      "0xc0045a47D21f650545Bdd3E2E418861c43e4d385": [
+        {
+          "asset": {
+            "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xae78736Cd615f374D3085123A210448E74Fc6393/ethereum",
+            "name": "Rocket Pool ETH",
+            "symbol": "rETH",
+            "type": "ERC20"
+          },
+          "spenders": {
+            "0x858646372CC42E1A627fcE94aa7A7033e7CF075A": {
+              "approval": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+              "exposure": [
+                {
+                  "raw_value": "0x0",
+                  "value": "0.0"
+                }
+              ],
+              "summary": "Approved infinite rETH to 0x858646372cc42e1a627fce94aa7a7033e7cf075a"
+            }
+          }
+        }
+      ]
+    },
+    "status": "Success",
+    "total_usd_diff": {},
+    "total_usd_exposure": {}
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "simulation": {
+    "error": "Reverted with reason string: 'ERC721: approve caller is not token owner or approved for all'",
+    "status": "Error"
+  }
+}

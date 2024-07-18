@@ -1,0 +1,81 @@
+{
+  "simulation": {
+    "account_address": "0xf7801B8115f3Fe46AC55f8c0Fdb5243726bdb66A",
+    "block": "10000000",
+    "chain": "ethereum",
+    "simulation": {
+      "account_summary": {
+        "assets_diffs": [],
+        "exposures": [],
+        "total_usd_exposure": {}
+      },
+      "address_details": {
+        "0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC": {
+          "contract_name": "Seaport",
+          "name_tag": "Seaport 1.5"
+        }
+      },
+      "assets_diffs": {
+        "0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC": [
+          {
+            "asset": {
+              "chain_id": 1,
+              "chain_name": "Ethereum Mainnet",
+              "decimals": 18,
+              "logo_url": "https://cdn.blockaid.io/chain/ethereum",
+              "name": "Ether",
+              "symbol": "ETH",
+              "type": "NATIVE"
+            },
+            "in": [
+              {
+                "raw_value": "0x2386f26fc100c8",
+                "summary": "Received 0.01 ETH",
+                "usd_price": "16.473630409885398507",
+                "value": "0.0100000000000002"
+              }
+            ],
+            "out": []
+          }
+        ],
+        "0x1111222233334444555566667777888899990000": [
+          {
+            "asset": {
+              "chain_id": 1,
+              "chain_name": "Ethereum Mainnet",
+              "decimals": 18,
+              "logo_url": "https://cdn.blockaid.io/chain/ethereum",
+              "name": "Ether",
+              "symbol": "ETH",
+              "type": "NATIVE"
+            },
+            "in": [],
+            "out": [
+              {
+                "raw_value": "0x2386f26fc100c8",
+                "summary": "Sent 0.01 ETH",
+                "usd_price": "16.473630409885398507",
+                "value": "0.0100000000000002"
+              }
+            ]
+          }
+        ]
+      },
+      "exposures": {},
+      "status": "Success",
+      "total_usd_diff": {
+        "0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC": {
+          "in": "16.473630409885398507",
+          "out": "0.0",
+          "total": "16.473630409885398507"
+        },
+        "0x1111222233334444555566667777888899990000": {
+          "in": "0.0",
+          "out": "16.473630409885398507",
+          "total": "-16.473630409885398507"
+        }
+      },
+      "total_usd_exposure": {}
+    }
+  }
+}

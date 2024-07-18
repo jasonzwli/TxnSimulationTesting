@@ -1,0 +1,15 @@
+{
+  "simulation": {
+    "account_summary": {
+      "assets_diffs": [],
+      "exposures": [],
+      "total_usd_exposure": {}
+    },
+    "address_details": {},
+    "assets_diffs": {},
+    "exposures": {},
+    "status": "Success",
+    "total_usd_diff": {},
+    "total_usd_exposure": {}
+  }
+}

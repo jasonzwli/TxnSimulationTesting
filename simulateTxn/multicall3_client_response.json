@@ -1,0 +1,1047 @@
+{
+  "simulation": {
+    "account_summary": {
+      "assets_diffs": [
+        {
+          "asset": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/ethereum",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "type": "ERC20"
+          },
+          "balance_changes": {
+            "after": {
+              "raw_value": "0x2b46123df3b53f16",
+              "usd_price": "9440.449794185813516378",
+              "value": "3.118199849291694026"
+            },
+            "before": {
+              "raw_value": "0x1712195128d950f0",
+              "usd_price": "5033.026850688394915778",
+              "value": "1.662419048821510481"
+            }
+          },
+          "in": [
+            {
+              "raw_value": "0x1433f8eccadbee26",
+              "summary": "Received 1.456 WETH",
+              "usd_price": "4407.422943497417691106",
+              "value": "1.455780800470183545"
+            }
+          ],
+          "out": []
+        },
+        {
+          "asset": {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xdAC17F958D2ee523a2206206994597C13D831ec7/ethereum",
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "type": "ERC20"
+          },
+          "balance_changes": {
+            "after": {
+              "raw_value": "0x1e382f83",
+              "usd_price": "506.998658999999975094",
+              "value": "506.998658999999975094"
+            },
+            "before": {
+              "raw_value": "0xbc18002",
+              "usd_price": "197.230593999999996413",
+              "value": "197.230593999999996413"
+            }
+          },
+          "in": [
+            {
+              "raw_value": "0x1276af81",
+              "summary": "Received 309.768 USDT",
+              "usd_price": "309.768064999999978681",
+              "value": "309.768064999999978681"
+            }
+          ],
+          "out": []
+        },
+        {
+          "asset": {
+            "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0x6B175474E89094C44Da98b954EedeAC495271d0F/ethereum",
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "type": "ERC20"
+          },
+          "balance_changes": {
+            "after": {
+              "raw_value": "0x592fdeaea911c8aeb",
+              "usd_price": "103.061992369516758572",
+              "value": "102.825600560370844505"
+            },
+            "before": {
+              "raw_value": "0x56a909a132dc89b7f",
+              "usd_price": "100.142221914036511521",
+              "value": "99.912527140377633827"
+            }
+          },
+          "in": [
+            {
+              "raw_value": "0x286d50d76353ef6c",
+              "summary": "Received 2.913 DAI",
+              "usd_price": "2.919770455480235949",
+              "value": "2.913073419993214674"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "exposures": [],
+      "total_usd_diff": {
+        "in": "4720.110778952897817362",
+        "out": "0.0",
+        "total": "4720.110778952897817362"
+      },
+      "total_usd_exposure": {}
+    },
+    "address_details": {
+      "0x051F1D88f0aF5763fB888eC4378b4D8B29ea3319": {
+        "contract_name": "TransparentUpgradeableProxy"
+      },
+      "0x15652636f3898F550b257B89926d5566821c32E1": {
+        "name_tag": "Across Protocol: Relayer 2"
+      },
+      "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+        "contract_name": "WBTC",
+        "name_tag": "Wrapped BTC: WBTC Token"
+      },
+      "0x428AB2BA90Eba0a4Be7aF34C9Ac451ab061AC010": {
+        "name_tag": "Across Protocol: Relayer"
+      },
+      "0x5c7BCd6E7De5423a257D81B442095A1a6ced35C5": {
+        "contract_name": "ERC1967Proxy",
+        "name_tag": "Across Protocol: Ethereum Spoke Pool V2"
+      },
+      "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
+        "contract_name": "Dai",
+        "name_tag": "Maker: Dai Stablecoin"
+      },
+      "0x8315177aB297bA92A06054cE80a67Ed4DBd7ed3a": {
+        "contract_name": "TransparentUpgradeableProxy",
+        "name_tag": "Arbitrum: Bridge"
+      },
+      "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+        "contract_name": "FiatTokenProxy",
+        "name_tag": "Circle: USDC Token"
+      },
+      "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+        "contract_name": "WETH9",
+        "name_tag": "Wrapped Ether"
+      },
+      "0xD7f9f54194C633F36CCD5F3da84ad4a1c38cB2cB": {
+        "contract_name": "TransparentUpgradeableProxy"
+      },
+      "0xbEb5Fc579115071764c7423A4f12eDde41f106Ed": {
+        "contract_name": "Proxy"
+      },
+      "0xc186fA914353c44b2E33eBE05f21846F1048bEda": {
+        "contract_name": "HubPool",
+        "name_tag": "Across Protocol: Hub Pool V2"
+      },
+      "0xcA11bde05977b3631167028862bE2a173976CA11": {
+        "contract_name": "Multicall3",
+        "name_tag": "Multicall3"
+      },
+      "0xdAC17F958D2ee523a2206206994597C13D831ec7": {
+        "contract_name": "TetherToken",
+        "name_tag": "Tether: USDT Stablecoin"
+      },
+      "0xee1DC6BCF1Ee967a350e9aC6CaaAA236109002ea": {
+        "contract_name": "BondToken"
+      }
+    },
+    "assets_diffs": {
+      "0x051F1D88f0aF5763fB888eC4378b4D8B29ea3319": [
+        {
+          "asset": {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xdAC17F958D2ee523a2206206994597C13D831ec7/ethereum",
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x26deab0d2",
+              "summary": "Received 10434.032 USDT",
+              "usd_price": "10434.031826000000364729",
+              "value": "10434.031826000000364729"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0x07aE8551Be970cB1cCa11Dd7a11F47Ae82e70E67": [
+        {
+          "asset": {
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/ethereum",
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x2c8fb9d31",
+              "summary": "Received 11961.868 USDC",
+              "usd_price": "11963.53429251437955827",
+              "value": "11961.867569000000003143"
+            }
+          ],
+          "out": []
+        },
+        {
+          "asset": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/ethereum",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x22970b38bcdfa40",
+              "summary": "Received 0.156 WETH",
+              "usd_price": "471.627657465416007199",
+              "value": "0.155779578567981636"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0x147B12C06D9e8e3837280F783Fd8070848D4412e": [
+        {
+          "asset": {
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/ethereum",
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x2fa7c1e",
+              "summary": "Received 49.97 USDC",
+              "usd_price": "49.977168668402583762",
+              "value": "49.970205999999997459"
+            }
+          ],
+          "out": []
+        },
+        {
+          "asset": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/ethereum",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x6da1d0dc8cec6fe4",
+              "summary": "Received 7.9 WETH",
+              "usd_price": "23916.972498502113012364",
+              "value": "7.899824867060248224"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0x15652636f3898F550b257B89926d5566821c32E1": [
+        {
+          "asset": {
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/ethereum",
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x25d866d37",
+              "summary": "Received 10159.025 USDC",
+              "usd_price": "10160.440984993090751232",
+              "value": "10159.025462999999945168"
+            }
+          ],
+          "out": []
+        },
+        {
+          "asset": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/ethereum",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x718751a79e7b5f09",
+              "summary": "Received 8.181 WETH",
+              "usd_price": "24767.01919910042124684",
+              "value": "8.180597028502068824"
+            }
+          ],
+          "out": []
+        },
+        {
+          "asset": {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xdAC17F958D2ee523a2206206994597C13D831ec7/ethereum",
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x382be96e",
+              "summary": "Received 942.402 USDT",
+              "usd_price": "942.401901999999950021",
+              "value": "942.401901999999950021"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0x1b59718eaFA2BFFE5318E07c1C3cB2edde354f9C": [
+        {
+          "asset": {
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/ethereum",
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x778008ad",
+              "summary": "Received 2004.88 USDC",
+              "usd_price": "2005.1588856881880929",
+              "value": "2004.879533000000037646"
+            }
+          ],
+          "out": []
+        },
+        {
+          "asset": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/ethereum",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x2c0cf241b244a800",
+              "summary": "Received 3.174 WETH",
+              "usd_price": "9609.926045827667621779",
+              "value": "3.174178201366996799"
+            }
+          ],
+          "out": []
+        },
+        {
+          "asset": {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xdAC17F958D2ee523a2206206994597C13D831ec7/ethereum",
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x6fe87f5",
+              "summary": "Received 117.344 USDT",
+              "usd_price": "117.3442450000000008",
+              "value": "117.3442450000000008"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0x41ee28EE05341E7fdDdc8d433BA66054Cd302cA1": [
+        {
+          "asset": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/ethereum",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x1433f8eccadbee26",
+              "summary": "Received 1.456 WETH",
+              "usd_price": "4407.422943497417691106",
+              "value": "1.455780800470183545"
+            }
+          ],
+          "out": []
+        },
+        {
+          "asset": {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xdAC17F958D2ee523a2206206994597C13D831ec7/ethereum",
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x1276af81",
+              "summary": "Received 309.768 USDT",
+              "usd_price": "309.768064999999978681",
+              "value": "309.768064999999978681"
+            }
+          ],
+          "out": []
+        },
+        {
+          "asset": {
+            "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0x6B175474E89094C44Da98b954EedeAC495271d0F/ethereum",
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x286d50d76353ef6c",
+              "summary": "Received 2.913 DAI",
+              "usd_price": "2.919770455480235949",
+              "value": "2.913073419993214674"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0x428AB2BA90Eba0a4Be7aF34C9Ac451ab061AC010": [
+        {
+          "asset": {
+            "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "decimals": 8,
+            "logo_url": "https://cdn.blockaid.io/token/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/ethereum",
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x179ac3",
+              "summary": "Received 0.015 WBTC",
+              "usd_price": "878.964548925547660474",
+              "value": "0.015469470000000001"
+            }
+          ],
+          "out": []
+        },
+        {
+          "asset": {
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/ethereum",
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x679856a89",
+              "summary": "Received 27808.59 USDC",
+              "usd_price": "27812.465221769434720045",
+              "value": "27808.590473000000201864"
+            }
+          ],
+          "out": []
+        },
+        {
+          "asset": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/ethereum",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x8ac8767df4a62d3c",
+              "summary": "Received 10 WETH",
+              "usd_price": "30276.449941818595107179",
+              "value": "10.00037325592370685"
+            }
+          ],
+          "out": []
+        },
+        {
+          "asset": {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xdAC17F958D2ee523a2206206994597C13D831ec7/ethereum",
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x288803a32",
+              "summary": "Received 10880.039 USDT",
+              "usd_price": "10880.039473999999245279",
+              "value": "10880.039473999999245279"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0x47eba71b631A6318B0fa2b410cE73DcFe7cFb320": [
+        {
+          "asset": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/ethereum",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x38d7ea4c68000",
+              "summary": "Received 0.001 WETH",
+              "usd_price": "3.027531989756920616",
+              "value": "0.001"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0x4a4e392290A382C9d2754E5Dca8581eA1893db5D": [
+        {
+          "asset": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/ethereum",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x495e4e1b651a935",
+              "summary": "Received 0.33 WETH",
+              "usd_price": "1000.362587049162129915",
+              "value": "0.330421805759179066"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0x5c7BCd6E7De5423a257D81B442095A1a6ced35C5": [
+        {
+          "asset": {
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/ethereum",
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "type": "ERC20"
+          },
+          "in": [],
+          "out": [
+            {
+              "raw_value": "0x335ec314",
+              "summary": "Sent 861.848 USDC",
+              "usd_price": "861.968426841441896613",
+              "value": "861.848340000000007421"
+            }
+          ]
+        },
+        {
+          "asset": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/ethereum",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "type": "ERC20"
+          },
+          "in": [],
+          "out": [
+            {
+              "raw_value": "0x6b7cdc1b83694828",
+              "summary": "Sent 7.745 WETH",
+              "usd_price": "23449.166135617473628372",
+              "value": "7.745307469897353414"
+            }
+          ]
+        },
+        {
+          "asset": {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xdAC17F958D2ee523a2206206994597C13D831ec7/ethereum",
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "type": "ERC20"
+          },
+          "in": [],
+          "out": [
+            {
+              "raw_value": "0x83a983a6",
+              "summary": "Sent 2208.925 USDT",
+              "usd_price": "2208.924582000000100379",
+              "value": "2208.924582000000100379"
+            }
+          ]
+        },
+        {
+          "asset": {
+            "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0x6B175474E89094C44Da98b954EedeAC495271d0F/ethereum",
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "type": "ERC20"
+          },
+          "in": [],
+          "out": [
+            {
+              "raw_value": "0x286d50d76353ef6c",
+              "summary": "Sent 2.913 DAI",
+              "usd_price": "2.919770455480235949",
+              "value": "2.913073419993214674"
+            }
+          ]
+        }
+      ],
+      "0x74726F7574017B05A6aDCB2d4e11E7aDcF80F06C": [
+        {
+          "asset": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/ethereum",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x3298e697442e7833",
+              "summary": "Received 3.646 WETH",
+              "usd_price": "11038.131668638965493301",
+              "value": "3.645917435714762789"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0x8315177aB297bA92A06054cE80a67Ed4DBd7ed3a": [
+        {
+          "asset": {
+            "chain_id": 1,
+            "chain_name": "Ethereum Mainnet",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/chain/ethereum",
+            "name": "Ether",
+            "symbol": "ETH",
+            "type": "NATIVE"
+          },
+          "in": [
+            {
+              "raw_value": "0x470de4df820000",
+              "summary": "Received 0.02 ETH",
+              "usd_price": "60.550639795138415877",
+              "value": "0.02"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0x96AE533814f9A128333a2914A631b9Ae690E2B0a": [
+        {
+          "asset": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/ethereum",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x1573fa25d091501b",
+              "summary": "Received 1.546 WETH",
+              "usd_price": "4680.122852592030540109",
+              "value": "1.545854137438130271"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": [
+        {
+          "asset": {
+            "chain_id": 1,
+            "chain_name": "Ethereum Mainnet",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/chain/ethereum",
+            "name": "Ether",
+            "symbol": "ETH",
+            "type": "NATIVE"
+          },
+          "in": [],
+          "out": [
+            {
+              "raw_value": "0x320eac52d6c632df3",
+              "summary": "Sent 57.712 ETH",
+              "usd_price": "174725.402041484019719064",
+              "value": "57.712157173775281649"
+            }
+          ]
+        },
+        {
+          "asset": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/ethereum",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x320eac52d6c632df3",
+              "summary": "Received 57.712 WETH",
+              "usd_price": "174725.402041484019719064",
+              "value": "57.712157173775281649"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0xD7f9f54194C633F36CCD5F3da84ad4a1c38cB2cB": [
+        {
+          "asset": {
+            "chain_id": 1,
+            "chain_name": "Ethereum Mainnet",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/chain/ethereum",
+            "name": "Ether",
+            "symbol": "ETH",
+            "type": "NATIVE"
+          },
+          "in": [
+            {
+              "raw_value": "0x1ecfe56fd4d80",
+              "summary": "Received 0.001 ETH",
+              "usd_price": "1.641080078919981311",
+              "value": "0.000542052102"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0xbEb5Fc579115071764c7423A4f12eDde41f106Ed": [
+        {
+          "asset": {
+            "chain_id": 1,
+            "chain_name": "Ethereum Mainnet",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/chain/ethereum",
+            "name": "Ether",
+            "symbol": "ETH",
+            "type": "NATIVE"
+          },
+          "in": [
+            {
+              "raw_value": "0x320eac52d6c632df3",
+              "summary": "Received 57.712 ETH",
+              "usd_price": "174725.402041484019719064",
+              "value": "57.712157173775281649"
+            }
+          ],
+          "out": []
+        }
+      ],
+      "0xc186fA914353c44b2E33eBE05f21846F1048bEda": [
+        {
+          "asset": {
+            "chain_id": 1,
+            "chain_name": "Ethereum Mainnet",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/chain/ethereum",
+            "name": "Ether",
+            "symbol": "ETH",
+            "type": "NATIVE"
+          },
+          "in": [],
+          "out": [
+            {
+              "raw_value": "0x48fae3367f4d80",
+              "summary": "Sent 0.021 ETH",
+              "usd_price": "62.191719874058392747",
+              "value": "0.020542052102"
+            }
+          ]
+        },
+        {
+          "asset": {
+            "address": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+            "decimals": 8,
+            "logo_url": "https://cdn.blockaid.io/token/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/ethereum",
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "type": "ERC20"
+          },
+          "in": [],
+          "out": [
+            {
+              "raw_value": "0x179ac3",
+              "summary": "Sent 0.015 WBTC",
+              "usd_price": "878.964548925547660474",
+              "value": "0.015469470000000001"
+            }
+          ]
+        },
+        {
+          "asset": {
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/ethereum",
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "type": "ERC20"
+          },
+          "in": [],
+          "out": [
+            {
+              "raw_value": "0xbe72336a8",
+              "summary": "Sent 51122.485 USDC",
+              "usd_price": "51129.608126792052644305",
+              "value": "51122.484903999997186475"
+            }
+          ]
+        },
+        {
+          "asset": {
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/ethereum",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "type": "ERC20"
+          },
+          "in": [],
+          "out": [
+            {
+              "raw_value": "0x4ae70311381ce63dd",
+              "summary": "Sent 86.357 WETH",
+              "usd_price": "261447.298832348111318424",
+              "value": "86.356576814681190513"
+            }
+          ]
+        },
+        {
+          "asset": {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xdAC17F958D2ee523a2206206994597C13D831ec7/ethereum",
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "type": "ERC20"
+          },
+          "in": [],
+          "out": [
+            {
+              "raw_value": "0x4c4628842",
+              "summary": "Sent 20474.661 USDT",
+              "usd_price": "20474.660929999998188578",
+              "value": "20474.660929999998188578"
+            }
+          ]
+        },
+        {
+          "asset": {
+            "address": "0xee1DC6BCF1Ee967a350e9aC6CaaAA236109002ea",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xee1DC6BCF1Ee967a350e9aC6CaaAA236109002ea/ethereum",
+            "name": "Across Bond Token",
+            "symbol": "ABT",
+            "type": "ERC20"
+          },
+          "in": [],
+          "out": [
+            {
+              "raw_value": "0x63eb89da4ed0000",
+              "summary": "Sent 0.45 ABT",
+              "value": "0.450000000000000011"
+            }
+          ]
+        }
+      ],
+      "0xf7bAc63fc7CEaCf0589F25454Ecf5C2ce904997c": [
+        {
+          "asset": {
+            "address": "0xee1DC6BCF1Ee967a350e9aC6CaaAA236109002ea",
+            "decimals": 18,
+            "logo_url": "https://cdn.blockaid.io/token/0xee1DC6BCF1Ee967a350e9aC6CaaAA236109002ea/ethereum",
+            "name": "Across Bond Token",
+            "symbol": "ABT",
+            "type": "ERC20"
+          },
+          "in": [
+            {
+              "raw_value": "0x63eb89da4ed0000",
+              "summary": "Received 0.45 ABT",
+              "value": "0.450000000000000011"
+            }
+          ],
+          "out": []
+        }
+      ]
+    },
+    "exposures": {
+      "0xc186fA914353c44b2E33eBE05f21846F1048bEda": [
+        {
+          "asset": {
+            "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "decimals": 6,
+            "logo_url": "https://cdn.blockaid.io/token/0xdAC17F958D2ee523a2206206994597C13D831ec7/ethereum",
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "type": "ERC20"
+          },
+          "spenders": {
+            "0x051F1D88f0aF5763fB888eC4378b4D8B29ea3319": {
+              "approval": "0x26deab0d2",
+              "exposure": [
+                {
+                  "raw_value": "0x26deab0d2",
+                  "usd_price": "10434.031826000000364729",
+                  "value": "10434.031826000000364729"
+                }
+              ],
+              "summary": "Approved 0x26deab0d2 USDT to 0x051f1d88f0af5763fb888ec4378b4d8b29ea3319"
+            }
+          }
+        }
+      ]
+    },
+    "status": "Success",
+    "total_usd_diff": {
+      "0x051F1D88f0aF5763fB888eC4378b4D8B29ea3319": {
+        "in": "10434.031826000000364729",
+        "out": "0.0",
+        "total": "10434.031826000000364729"
+      },
+      "0x07aE8551Be970cB1cCa11Dd7a11F47Ae82e70E67": {
+        "in": "12435.161949979796190746",
+        "out": "0.0",
+        "total": "12435.161949979796190746"
+      },
+      "0x147B12C06D9e8e3837280F783Fd8070848D4412e": {
+        "in": "23966.949667170516477199",
+        "out": "0.0",
+        "total": "23966.949667170516477199"
+      },
+      "0x15652636f3898F550b257B89926d5566821c32E1": {
+        "in": "35869.862086093511607032",
+        "out": "0.0",
+        "total": "35869.862086093511607032"
+      },
+      "0x1b59718eaFA2BFFE5318E07c1C3cB2edde354f9C": {
+        "in": "11732.429176515855942853",
+        "out": "0.0",
+        "total": "11732.429176515855942853"
+      },
+      "0x41ee28EE05341E7fdDdc8d433BA66054Cd302cA1": {
+        "in": "4720.110778952897817362",
+        "out": "0.0",
+        "total": "4720.110778952897817362"
+      },
+      "0x428AB2BA90Eba0a4Be7aF34C9Ac451ab061AC010": {
+        "in": "69847.919186513579916209",
+        "out": "0.0",
+        "total": "69847.919186513579916209"
+      },
+      "0x47eba71b631A6318B0fa2b410cE73DcFe7cFb320": {
+        "in": "3.027531989756920616",
+        "out": "0.0",
+        "total": "3.027531989756920616"
+      },
+      "0x4a4e392290A382C9d2754E5Dca8581eA1893db5D": {
+        "in": "1000.362587049162129915",
+        "out": "0.0",
+        "total": "1000.362587049162129915"
+      },
+      "0x5c7BCd6E7De5423a257D81B442095A1a6ced35C5": {
+        "in": "0.0",
+        "out": "26522.978914914394408697",
+        "total": "-26522.978914914394408697"
+      },
+      "0x74726F7574017B05A6aDCB2d4e11E7aDcF80F06C": {
+        "in": "11038.131668638965493301",
+        "out": "0.0",
+        "total": "11038.131668638965493301"
+      },
+      "0x8315177aB297bA92A06054cE80a67Ed4DBd7ed3a": {
+        "in": "60.550639795138415877",
+        "out": "0.0",
+        "total": "60.550639795138415877"
+      },
+      "0x96AE533814f9A128333a2914A631b9Ae690E2B0a": {
+        "in": "4680.122852592030540109",
+        "out": "0.0",
+        "total": "4680.122852592030540109"
+      },
+      "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+        "in": "174725.402041484019719064",
+        "out": "174725.402041484019719064",
+        "total": "0.0"
+      },
+      "0xD7f9f54194C633F36CCD5F3da84ad4a1c38cB2cB": {
+        "in": "1.641080078919981311",
+        "out": "0.0",
+        "total": "1.641080078919981311"
+      },
+      "0xbEb5Fc579115071764c7423A4f12eDde41f106Ed": {
+        "in": "174725.402041484019719064",
+        "out": "0.0",
+        "total": "174725.402041484019719064"
+      },
+      "0xc186fA914353c44b2E33eBE05f21846F1048bEda": {
+        "in": "0.0",
+        "out": "333992.724157939781434834",
+        "total": "-333992.724157939781434834"
+      }
+    },
+    "total_usd_exposure": {
+      "0xc186fA914353c44b2E33eBE05f21846F1048bEda": {
+        "0x051F1D88f0aF5763fB888eC4378b4D8B29ea3319": "10434.031826000000364729"
+      }
+    }
+  }
+}

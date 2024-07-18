@@ -1,0 +1,68 @@
+{
+  "simulation": {
+    "account_summary": {
+      "assets_diffs": [],
+      "exposures": [
+        {
+          "asset": {
+            "address": "0x694200465963898a9Fef06a5b778d9e65721685c",
+            "decimals": 9,
+            "logo_url": "https://cdn.blockaid.io/token/0x694200465963898a9Fef06a5b778d9e65721685c/ethereum",
+            "name": "Gecky",
+            "symbol": "GECKY",
+            "type": "ERC20"
+          },
+          "spenders": {
+            "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D": {
+              "approval": "0x1",
+              "exposure": [
+                {
+                  "raw_value": "0x0",
+                  "value": "0.0"
+                }
+              ],
+              "summary": "Approved 0x1 GECKY to 0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+            }
+          }
+        }
+      ],
+      "total_usd_exposure": {}
+    },
+    "address_details": {
+      "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D": {
+        "contract_name": "UniswapV2Router02",
+        "name_tag": "Uniswap V2: Router 2"
+      }
+    },
+    "assets_diffs": {},
+    "exposures": {
+      "0x5fD93853fDF2eD2c51FA99490f95637E0Af06Bfe": [
+        {
+          "asset": {
+            "address": "0x694200465963898a9Fef06a5b778d9e65721685c",
+            "decimals": 9,
+            "logo_url": "https://cdn.blockaid.io/token/0x694200465963898a9Fef06a5b778d9e65721685c/ethereum",
+            "name": "Gecky",
+            "symbol": "GECKY",
+            "type": "ERC20"
+          },
+          "spenders": {
+            "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D": {
+              "approval": "0x1",
+              "exposure": [
+                {
+                  "raw_value": "0x0",
+                  "value": "0.0"
+                }
+              ],
+              "summary": "Approved 0x1 GECKY to 0x7a250d5630b4cf539739df2c5dacb4c659f2488d"
+            }
+          }
+        }
+      ]
+    },
+    "status": "Success",
+    "total_usd_diff": {},
+    "total_usd_exposure": {}
+  }
+}
